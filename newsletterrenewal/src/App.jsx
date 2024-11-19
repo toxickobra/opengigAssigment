@@ -6,7 +6,7 @@ import { Button } from './components/ui/button';
 import Card from './components/ui/card';
 import UserInbox from './components/UserInbox';
 
-const API_BASE_URL = 'http://localhost:5000'; // Replace with your backend URL
+const API_BASE_URL = 'https://opengigassigment.onrender.com'; // Replace with your backend URL
 
 const SIMULATION_STEP_TIME = 5000; // 1 second per step
 const WAITING_TIME = 5000; // 1 second waiting period after reminder
