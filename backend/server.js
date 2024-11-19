@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());  // To parse JSON request bodies
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017', {
+mongoose.connect('mongodb+srv://sample:226016@opengig.bs2q4.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
