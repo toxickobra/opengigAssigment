@@ -8,8 +8,8 @@ import UserInbox from './components/UserInbox';
 
 const API_BASE_URL = 'http://localhost:5000'; // Replace with your backend URL
 
-const SIMULATION_STEP_TIME = 1000; // 1 second per step
-const WAITING_TIME = 1000; // 1 second waiting period after reminder
+const SIMULATION_STEP_TIME = 5000; // 1 second per step
+const WAITING_TIME = 5000; // 1 second waiting period after reminder
 
 const FlowSimulation = () => {
   const [isRunning, setIsRunning] = useState(false);
